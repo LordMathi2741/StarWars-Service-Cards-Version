@@ -1,0 +1,16 @@
+
+<div class="card-container">
+  @for(actor of actors; track actor){
+   <div class="card-content">
+     <mat-card style="width: 65%; background-color: rebeccapurple; color:white; border-radius: 25px;box-shadow: #333333 0px 0px 10px;">
+       <mat-card-content> <h4> Name: {{actor.name}} </h4></mat-card-content>
+       <mat-card-content> <h4> Mass: {{actor.mass}} </h4></mat-card-content>
+       <mat-card-content> <h4> Gender: {{actor.gender}} </h4></mat-card-content>
+       <mat-card-content> <h4> Skin Color: {{actor.skin_color}} </h4></mat-card-content>
+       <mat-card-content> <h4> Birth Year: {{actor.birth_year}} </h4></mat-card-content>
+
+     </mat-card>
+   </div>
+  }
+</div>
+
